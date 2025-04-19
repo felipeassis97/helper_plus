@@ -1,6 +1,13 @@
+//
+//  Color+.swift
+//  Helper+
+//
+//  Created by Felipe Assis on 17/4/2025.
+//
+
 import SwiftUI
 
-extension Color {
+struct Colors {
     // MARK: - Base Colors
     static let primaryAccent = Color("PrimaryAccent")
     static let secondary = Color("Secondary")
@@ -8,7 +15,7 @@ extension Color {
     static let success = Color("Success")
     static let warning = Color("Warning")
     static let info = Color("Info")
-    
+
     // MARK: - Background Colors
     static let bgLight = Color("BgLight")
     static let bgDark = Color("BgDark")
@@ -23,20 +30,19 @@ extension Color {
     static let bgErrorLight = Color("BgErrorLight")
     static let bgSuccessLight = Color("BgSuccessLight")
     static let bgWarningLight = Color("BgWarningLight")
-    
+
     // MARK: - Text and Icon Colors
     static let contentPrimary = Color("ContentPrimary")
     static let contentSecondary = Color("ContentSecondary")
     static let contentTertiary = Color("ContentTertiary")
     static let contentDisabled = Color("ContentDisabled")
     static let contentAccent = Color("ContentAccent")
-    static let contentSecondaryColor = Color("ContentSecondaryColor")
     static let contentError = Color("ContentError")
     static let contentSuccess = Color("ContentSuccess")
     static let contentWarning = Color("ContentWarning")
     static let contentOnColor = Color("ContentOnColor")
     static let contentOnInverse = Color("ContentOnInverse")
-    
+
     // MARK: - Border & Divider Colors
     static let border = Color("Border")
     static let borderAccent = Color("BorderAccent")
@@ -48,4 +54,4 @@ extension Color {
     static let dividerError = Color("DividerError")
     static let dividerSuccess = Color("DividerSuccess")
     static let dividerWarning = Color("DividerWarning")
-} 
+}
